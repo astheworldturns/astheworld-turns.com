@@ -1,0 +1,189 @@
+
+/*
+================
+    Common
+================
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    min-height: 100%;
+    background-color: wheat;
+    
+}
+
+.sidebar {
+    float: left;
+    width: 15%;
+    height: 100%;
+    background-color: wheat;
+}
+
+.main {
+    overflow: auto;
+    float: left;
+    width: 70%;
+    height: 100%;
+    background-color: burlywood;
+}
+
+.content {
+    margin:20px;
+    background-color: burlywood;
+    height: 100%;
+
+}
+
+.essay {
+    height: 100%;
+    margin: 20px;
+}
+
+footer {
+    height: 28px; 
+    background-color: hotpink;
+    text-align: center;
+    padding-top: 5px;
+    position: relative;
+    clear: both;
+}
+
+
+
+/*
+================
+    Header
+================
+*/
+
+.header {
+    background-color: azure;
+    height: 90px;
+}
+
+.heading a {
+    text-decoration: none;
+    color: forestgreen;
+}
+
+.heading a:hover {
+    color: hotpink;
+  }
+
+.heading {
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 60px;
+}
+
+.sub-header {
+    background-color: rgb(89, 163, 122);
+    margin: 0;
+}
+
+/*
+================
+     Quote
+================
+*/
+
+.quote {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.quotee {
+    padding-left: 700px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+/*
+================
+    Sidebar
+================
+*/
+
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: black;
+    font-size: 20px
+}
+
+.sidebar-heading {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.empty-li:hover {
+    background-color: wheat;
+}
+
+ul li {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+ul li a {
+    display: block;
+}
+
+ul li:hover {
+    background-color: hotpink;
+}
+
+
+/*
+================
+      Main
+================
+*/
+
+.main-heading {
+    font-size: 30px;
+}
+
+.text-container {
+    border: solid 5px burlywood
+}
+
+.all-text {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(295, 222, 179);
+    margin: 0px;
+    border: solid 5px rgb(245, 212, 175);
+}
+
+.lower-text {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.main-title {
+    padding-left: 10px;
+    padding-bottom: 5px
+}
+
+.greek-photo {
+    height: 250px;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
